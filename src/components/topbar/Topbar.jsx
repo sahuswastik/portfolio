@@ -2,8 +2,6 @@ import "./topbar.scss";
 import { Person, Mail } from "@mui/icons-material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { ReactComponent as Git } from "../../../public/assets/github-brands.svg";
-import { ReactComponent as LinkedIn } from "../../../public/assets/linkedin-brands.svg";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
