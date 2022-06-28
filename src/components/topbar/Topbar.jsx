@@ -1,5 +1,7 @@
 import "./topbar.scss";
 import { Person, Mail } from "@mui/icons-material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { ReactComponent as Git } from "../../../public/assets/github-brands.svg";
 import { ReactComponent as LinkedIn } from "../../../public/assets/linkedin-brands.svg";
 
@@ -16,19 +18,21 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span>+91 7008913909</span>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>sahuswastik30@gmail.com</span>
+            <a href="#contact">
+              <Mail className="icon" />
+              <span>sahuswastik30@gmail.com</span>
+            </a>
           </div>
           <div className="itemContainer">
             <a href="https://github.com/sahuswastik">
-              <Git />
-              <span>Git</span>
+              <GitHubIcon className="icon" />
+              <span>Hub</span>
             </a>
           </div>
           <div className="itemContainer">
             <a href="https://www.linkedin.com/">
-              <LinkedIn className="icon" />
-              <span>Link</span>
+              <LinkedInIcon className="icon" />
+              <span>LinkedIn</span>
             </a>
           </div>
         </div>

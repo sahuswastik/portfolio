@@ -18,7 +18,10 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img
+            src="https://cutewallpaper.org/24/animated-alphabet-s/vent-19-s-graphic-design-posters-galaxy-wallpaper-lettering-fonts.gif"
+            alt=""
+          />
         </div>
       </div>
       <div className="right">
