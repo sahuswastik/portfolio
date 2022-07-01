@@ -18,6 +18,7 @@ export default function Works() {
       title: "Face Detection",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://newsroom.unsw.edu.au/sites/default/files/thumbnails/image/facerecognition_1.jpg",
+      link: "",
     },
     {
       id: "3",
@@ -25,6 +26,7 @@ export default function Works() {
       title: "Robo-Friends",
       desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img: "https://previews.123rf.com/images/scottff72/scottff721401/scottff72140100010/24802604-a-robot-woman-head-with-internal-technology-side-view-isolated-on-white-background.jpg",
+      link: "",
     },
   ];
 
@@ -41,7 +43,7 @@ export default function Works() {
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {data.map((d) => (
-          <div className="container">
+          <div className="container" key={d.id}>
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
